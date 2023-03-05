@@ -87,7 +87,7 @@ export default Vue.extend({
             }
         },
     },
-    created: function () {
+    created() {
         this.getRandomUsers()
     }
 })
